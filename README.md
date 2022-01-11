@@ -25,7 +25,7 @@ Basic steps to create a new Rails application from scratch.
   mv my_app/{*,.*} ./
   ```
 - Edit DB settings    
-  Edit `config/database.yml` and enter the database credentials (host: postgres, user: root, password: password)
+  Edit `config/database.yml` and enter the database credentials (`host: postgres`, `username: root`, `password: password`)
 
 - Run application
   ```
