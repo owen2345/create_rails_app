@@ -8,7 +8,7 @@ Basic steps to create a new Rails application from scratch.
   mkdir my_new_app && cd my_new_app 
   ```
 - Download [Dockerfile](Dockerfile) and [docker-compose.yml](docker-compose.yml) inside the new folder
-- Edit `docker-compose.yml` to use Mysql instead of Postgres
+- (Optional) Edit `docker-compose.yml` to use Mysql instead of Postgres
     - Enable Mysql image (uncomment lines from 5 until 11) and enable volume in line 51
     - Disable Postgres image (comment lines from 21 until 29) and disable volume in line 50
     - Replace `postgres` for `mysql` inside `depends_on` (Line 38)
