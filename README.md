@@ -29,7 +29,7 @@ Basic steps to create a new Rails application from scratch.
 
 - Run application
   ```
-  rails db:migrate
+  rails db:create
   bin/dev
   ```
   Visit http://localhost:3000
