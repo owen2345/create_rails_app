@@ -27,6 +27,8 @@ Basic steps to create a new Rails application from scratch.
 - Edit DB settings    
   Edit `config/database.yml` and enter the database credentials (`host: postgres`, `username: root`, `password: password`)
 
+- (Localhost domain name fix) Edit `Procfile.dev` and add `-b 0.0.0.0`, should look like: `web: bin/rails server -p 3000 -b 0.0.0.0`
+
 - Run application
   ```
   rails db:create
