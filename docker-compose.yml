@@ -31,6 +31,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
 
   app: &app
+    tty: true
     build: .
     command: sh -c 'bin/dev'
     volumes:
