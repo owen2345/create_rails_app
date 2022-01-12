@@ -41,5 +41,5 @@ Create a new rails application with all its dependencies in a couple of minutes.
   -  ActionCable
   -  TurboStream
   -  Caching
-  -  Sidekiq background job
+  -  Background jobs
 - Use the following redis url (Note hostname is `redis`): `redis://redis:6379/0`
