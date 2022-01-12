@@ -1,6 +1,6 @@
 # CreateRailsApp
 
-Basic steps to create a new Rails application from scratch.
+Create a new rails application with all its dependencies in a couple of minutes.
 
 ## Using Docker
 - Create your app folder
@@ -35,3 +35,11 @@ Basic steps to create a new Rails application from scratch.
   bin/dev
   ```
   Visit http://localhost:3000
+  
+## Extra
+- Enable `redis` image for the following cases:
+  -  ActionCable
+  -  TurboStream
+  -  Caching
+  -  Sidekiq background job
+- Use the following redis url (Note hostname is `redis`): `redis://redis:6379/0`
