@@ -18,6 +18,9 @@ Create a new rails application with all its dependencies in a couple of minutes.
   ```
 - Create the new application (See all options with `rails new --help` and customize based on it)
   ```
+  gem install rails
+  rails -v
+  ruby -v
   rails new . --database=postgresql --javascript=esbuild --css=sass
   ```
 - Edit DB settings    
